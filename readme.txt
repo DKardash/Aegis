@@ -1,10 +1,18 @@
-Программы и ключи запуска:
-Furmark: /furmark -fullhd -2k
-AIDA: /AIDA -CPU -FPU -cache -memory -disks -GPU
-Victoria: /victoria -C -D
-Отчет в телеграм: /time *m (в минутах)
+🔹 Aegis.exe
+- Поддержка команд через аргументы:
+- [ ] - /AIDA — автоматизация запуска стресс тестов (-CPU -FPU -cache -memory -disks -GPU).
+- [ ] - /VICTORIA — автоматизация Victoria для тестирования дисков (-C -D).
+- [ ] - /FURMARK — автоматизация FurMark для стресс-тестов видеокарты (-fullhd -2k).
+- [ ] - /TIME — отложенная отправка скриншота экрана в Telegram (/time 60m).
+- Создание скриншотов экрана и отправка их в Telegram с данными о ПК (имя, локальный IP).
+
+🔹 Updater.exe
+- Автоматически проверяет версию Aegis.exe на сервере (GitHub).
+- Сравнивает с локальной версией и обновляет при необходимости.
+
+🔹 Примечания
+Запуск ПО для тестирования происходит поочерёдно, ключ за ключом.
+Общее расположение папки: "C:\Gizmo Utilities\Aegis"
 
 Команда на выполнение (пример):
-"C:\Gizmo Utilities\Aegis\Aegis.exe" /furmark -fullhd /aida -cpu -fpu -memory /time 30m
-
-Запуск выполняется поочерёдно, ключ за ключом.
+"C:\Gizmo Utilities\Aegis\Aegis.exe" /furmark -fullhd /aida -cpu -fpu -memory /victoria -C /time 30m
