@@ -16,3 +16,9 @@
 
 Команда на выполнение (пример):
 "C:\Gizmo Utilities\Aegis\Aegis.exe" /furmark -fullhd /aida -cpu -fpu -memory /victoria -C /time 30m
+
+
+Roadmaps:
+- Алерт и остановка исполняемого файла при превышении температур по CPU и/или GPU.
+- Подробная отчетность в Telegram (с температурами CPU и GPU) + сформулированный ответ на основе температур
+- Добавление OCCT
