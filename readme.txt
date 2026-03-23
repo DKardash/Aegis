@@ -2,7 +2,7 @@
 - Поддержка команд через аргументы:
 - [ ] - /AIDA — автоматизация запуска стресс тестов (-CPU -FPU -cache -memory -disks -GPU).
 - [ ] - /VICTORIA — автоматизация Victoria для тестирования до трех дисков (-C -D -E).
-- [ ] - /FURMARK — автоматизация FurMark для стресс-тестов видеокарты (-fullhd -2k -4k).
+- [ ] - /FURMARK — автоматизация FurMark для стресс-тестов видеокарты.
 - [ ] - /TIME — отложенная отправка скриншота экрана в Telegram (/time 60m).
 - Создание скриншотов экрана и отправка их в Telegram с данными о ПК (имя, локальный IP).
 
@@ -15,7 +15,7 @@
 Общее расположение папки: "C:\Gizmo Utilities\Aegis"
 
 Команда на выполнение (пример):
-"C:\Gizmo Utilities\Aegis\Aegis.exe" /furmark -fullhd /aida -cpu -fpu -memory /victoria -C /time 30m
+"C:\Gizmo Utilities\Aegis\Aegis.exe" /furmark /aida -cpu -fpu -memory /victoria -C /time 30m
 
 
 Roadmaps:
