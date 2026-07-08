@@ -36,7 +36,7 @@ Aegis - утилита для автоматизации запуска стре
 Пример:
 
 ```bat
-"C:\Gizmo Utilities\Aegis\Aegis.exe" /aida -cpu -fpu -memory
+"C:\Gizmo Utilities\Aegis\Aegis.exe" /aida -cpu -fpu -cache -memory -disks -gpu
 ```
 
 ## Victoria
