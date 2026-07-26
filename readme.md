@@ -29,6 +29,7 @@ Aegis - утилита для автоматизации запуска стре
 | `HDAudio.Driver` | Дополнительно установить NVIDIA HD Audio Driver. |
 | `-clean` | Выполнить чистую установку NVIDIA-драйвера. |
 | `NVIDIA.Panel` | Установить только NVIDIA Control Panel без установки видеодрайвера. |
+| `Display.Normalize` | Установить родное разрешение и максимальную герцовку, сбросить цветовые настройки NVIDIA. |
 
 ## AIDA64
 
@@ -108,6 +109,19 @@ winget install "NVIDIA Control Panel" --id 9NF8H0H7WMLT -s msstore --accept-pack
 ```bat
 "C:\Gizmo Utilities\Aegis\Aegis.exe" NVIDIA.Panel
 ```
+## Нормализация разрешения, герцовки и цвета
+
+Команда `Display.Normalize` выполняет для каждого активного монитора:
+
+- устанавливает родное разрешение;
+- выбирает максимальную доступную прогрессивную герцовку для этого разрешения;
+- сбрасывает цветовые настройки NVIDIA (яркость, контрастность, гамму, цифровую интенсивность и оттенок).
+
+Пример:
+
+```bat
+"C:\Gizmo Utilities\Aegis\Aegis.exe" Display.Normalize
+```
 
 ## Временные папки NVIDIA
 
@@ -172,6 +186,7 @@ logs
 ```text
 logs\Aegis.log
 logs\AegisGPU.log
+logs\AegisDisplay.log
 ```
 
 `Aegis.log` содержит общий журнал работы программы. `AegisGPU.log` содержит отдельный журнал установки NVIDIA-драйвера и NVIDIA Control Panel.
