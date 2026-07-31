@@ -211,6 +211,7 @@ Aegis обнаруживает установленную видеокарту, 
 AIDA=C:\Gizmo Utilities\AIDA64_portable\AIDA64ExtremePortable.exe
 Furmark=C:\Gizmo Utilities\FurMark2\furmark.exe
 Victoria=C:\Gizmo Utilities\Victoria537\Victoria537\Victoria.exe
+Zapret=D:\Games\zapret
 ```
 
 Если файл существует, Aegis использует указанные в нём пути. Для отсутствующих значений применяются стандартные пути, заложенные в программе.
@@ -266,6 +267,5 @@ C:\Gizmo Utilities\Aegis
 
 - интеграция систем мониторинга температур CPU и GPU;
 - более подробная отчётность в Telegram по результатам тестов FurMark, AIDA64 и Victoria (с максимальными температурами CPU и GPU во время тестов и генерацией подробного отчета по результатам тестов ПК);
-- обновление Zapret от Flowseal через ключи (Zapret.Update & /Zapret, либо какой-то другой интуитивно понятный ключ);
 - рассмотреть перенос Token и ChatID в конфигурационный файл `settings.config` с шифрованием внесенных данных;
 - поддержка `OCCT`.
