@@ -64,7 +64,7 @@ Aegis - утилита для автоматизации запуска стре
 ## Подробная документация
 
 <details>
-<summary><strong>Стресс-тесты и диагностика: AIDA64, Victoria и FurMark</strong></summary>
+<summary><strong>Стресс-тесты и диагностика: AIDA64, Victoria, FurMark и OCCT</strong></summary>
 
 ### AIDA64
 
