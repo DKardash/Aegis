@@ -220,6 +220,7 @@ Aegis обнаруживает установленную видеокарту, 
 AIDA=C:\Gizmo Utilities\AIDA64_portable\AIDA64ExtremePortable.exe
 Furmark=C:\Gizmo Utilities\FurMark2\furmark.exe
 Victoria=C:\Gizmo Utilities\Victoria537\Victoria537\Victoria.exe
+OCCT=C:\Gizmo Utilities\OCCT\OCCT.exe
 Zapret=D:\Games\zapret
 ```
 
