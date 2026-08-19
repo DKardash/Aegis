@@ -114,6 +114,12 @@ Aegis - утилита для автоматизации запуска стре
 | `-MEMORY` | Стресс-тест оперативной памяти. |
 | `-POWER` | Стресс-тест питания. |
 
+Пример запуска стресс-тестов:
+
+```bat
+"C:\Gizmo Utilities\Aegis\Aegis.exe" /OCCT -cpu -gpu -memory
+```
+
 </details>
 
 <details>
